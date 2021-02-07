@@ -6,11 +6,14 @@ The Urban82 Aes256 is writtin in c++ and can be used in many legacy apps which d
 
 Some helper class are also added in case you want to use Base64 encoding for the encrypted values.
 
-# Note
+## Note
 Use the default RijnDael class instead if you don't need cross language support.
 
 
-# C# Code Sample
+## C# Code Sample
+To use the code in C#, you can reference the C# project in your solution. 
+
+`using AES256;`
 
 * Encrytion
 ```
