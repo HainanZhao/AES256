@@ -13,8 +13,11 @@ Use the default RijnDael class instead if you don't need cross language support.
 # C# Code Sample
 
 * Encrytion
+```
 var encrypted = AesUtils.EncryptAES("your password", "your plain text");
+```
 
 * Decryption
+```
 var plain = AesUtils.DecryptAES("your password", "your encryped text");
-
+```
